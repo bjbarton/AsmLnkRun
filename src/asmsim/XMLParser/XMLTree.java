@@ -60,7 +60,7 @@ public class XMLTree {
     }
             
     XMLTree(XMLTree parent, String tag, 
-                Collection properties, Collection subElements){
+                List<String> properties, List<XMLTree> subElements){
         
         this.properties = properties;
         this.subElements = subElements;
